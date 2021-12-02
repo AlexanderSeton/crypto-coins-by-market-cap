@@ -39,5 +39,6 @@
 }
 
 #menu-bar {
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px -5px;
+    box-shadow: rgba(0, 0, 0, 0.2) 5px 5px 15px 15px;
+    background-color: dimgray;
 }

@@ -20,7 +20,7 @@ const Coin = ({coin}) => {
                 <p className="song-ranking">{coin.symbol.toUpperCase()}</p>
                 <p><strong>{coin.name}</strong></p>
                 <p><strong>£{coin.current_price}</strong></p>
-                <p><strong>24hr Change: {coin.price_change_percentage_24h}%</strong></p>
+                <p style={{ color: coin.price_change_percentage_24h >= 0 ? "green" : "red" }}><strong>24hr Change: {coin.price_change_percentage_24h}%</strong></p>
                 <p>Circulating Supply: {coin.circulating_supply}</p>
                 <p>{getPercentOfTotalSupply()}</p>
             </div>

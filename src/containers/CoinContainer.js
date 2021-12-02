@@ -17,7 +17,7 @@ const CoinContainer = () => {
 
     return(
         <div>
-            <CoinList coins={coins} />
+            {coins !== [] ? <CoinList coins={coins} /> : null}
         </div>
     )
 }

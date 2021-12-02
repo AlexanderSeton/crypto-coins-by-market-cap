@@ -1,0 +1,48 @@
+.list-element {
+    height: 370px;
+    width: 22.5%;
+    /* border: 2px black solid; */
+    font-size: 120%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+    /* text-shadow: 0 0 5px gray, 0 0 5px black; */
+    border-radius: 10%;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 25px 50px -12px;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    list-style: none;
+}
+
+.list-element:hover {
+    /* outline: 1px black solid; */
+    transform: scale(1.02);
+    transition-delay: 50ms;
+    box-shadow: rgba(0, 0, 0, 2) 0px 25px 50px -12px;
+}
+
+.song-link {
+    text-decoration: none;
+}
+
+.list-element-data {
+    /* outline: 5px red solid; */
+    height: 350px;
+    position: relative;
+    bottom: 7.5%;
+}
+
+.song-ranking {
+    font-size: 175%;
+}
+
+.preview-audio {
+    width: 99%;
+    /* border: 1px black solid; */
+    position: absolute;
+    bottom: 0;
+    /* padding-bottom: 0;
+    margin-bottom: 0; */
+}

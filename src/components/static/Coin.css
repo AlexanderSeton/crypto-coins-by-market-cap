@@ -1,6 +1,7 @@
 .list-element {
     height: 370px;
     width: 22.5%;
+    min-width: 260px;
     /* border: 2px black solid; */
     font-size: 120%;
     background-repeat: no-repeat;
